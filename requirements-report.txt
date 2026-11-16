@@ -1,0 +1,6 @@
+# Reporting notebook uses the Python standard library.
+# NumPy is needed only by the optional fusion interface.
+numpy>=1.26,<3
+nbformat>=5.10
+nbclient>=0.10
+ipykernel>=6

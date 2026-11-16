@@ -1,0 +1,11 @@
+scope,experiment,model,arm,ba
+development_oof,,qwen38-27b,frozen,0.4726820780512056
+development_oof,,qwen38-27b,lora,0.6509321401938851
+development_oof,,qwen35-9b-base,frozen,0.4426696495152871
+development_oof,,qwen35-9b-base,lora,0.6309072831220482
+public_leaderboard,V3,,,0.669
+public_leaderboard,G01,,,0.666
+public_leaderboard,G04,,,0.672
+public_leaderboard,G07,,,0.674
+public_leaderboard,A27,,,0.64
+public_leaderboard,A09,,,0.626

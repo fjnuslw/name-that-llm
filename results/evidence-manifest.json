@@ -1,0 +1,68 @@
+{
+  "format": "name-that-llm-evidence-manifest-v1",
+  "metrics_sha256_canonical_json": "3648407ad220e9b5f7770c11e0a8deb4c4c808b77e8b0d039129ad4766f31d04",
+  "archive_fingerprints": [
+    {
+      "stage": "003",
+      "archive": "20261112T091407Z.zip",
+      "sha256": "355938cab8c9eab18c3a1ded0551fb98b7d1493d248c3eddabedbf247fc2d4ca"
+    },
+    {
+      "stage": "004",
+      "archive": "20261113T065343Z-parallel.zip",
+      "sha256": "cdd70a46f0830c2e1e46ea9285ece750114b1eb5f10727d3af8fd270d64c53a8"
+    },
+    {
+      "stage": "005",
+      "archive": "20261113T171219Z.zip",
+      "sha256": "7a7c81cff6ad53451e7eba1ac1d566e423321f37ca52630e70f088b4a9183af0"
+    }
+  ],
+  "score_records": [
+    {
+      "experiment": "V3",
+      "a27": 0.12,
+      "b9": 0.4,
+      "public_ba": 0.669,
+      "submission_ref": 58339923
+    },
+    {
+      "experiment": "G01",
+      "a27": 0.25,
+      "b9": 0.4,
+      "public_ba": 0.666,
+      "submission_ref": 58363608
+    },
+    {
+      "experiment": "G04",
+      "a27": 0.4,
+      "b9": 0.4,
+      "public_ba": 0.672,
+      "submission_ref": 58363612
+    },
+    {
+      "experiment": "G07",
+      "a27": 0.55,
+      "b9": 0.4,
+      "public_ba": 0.674,
+      "submission_ref": 58364991
+    },
+    {
+      "experiment": "A27",
+      "a27": null,
+      "b9": null,
+      "public_ba": 0.64,
+      "submission_ref": 58365339
+    },
+    {
+      "experiment": "A09",
+      "a27": null,
+      "b9": null,
+      "public_ba": 0.626,
+      "submission_ref": 58365344
+    }
+  ],
+  "validation": "20 key OOF files recomputed locally; ID, label, Prompt and fixed-fold alignment checked",
+  "shared_payload": "aggregates, reporting code and dependency references",
+  "raw_text_ids_predictions_weights_or_credentials_included": false
+}

@@ -1,0 +1,43 @@
+{
+  "scope": "Reference inventory only; full pipeline and weights are not included",
+  "dataset_sources": [
+    "bbucxi/qwen35-9b-safetensors/1",
+    "pjmathematician/ultrabert-380m-ntl/1",
+    "seyitkaangunes/ntl-extra-api-passages/2",
+    "zbigniewkirchner/ntl-qwen3-8b-lora-claude-head/1",
+    "dophuchung/ntl-proxy-generations/1",
+    "nishantdahal/ntl-two-stage-lora/1",
+    "josephadamski91/ntl-atlas-qwen3-8b-v1/3",
+    "dhruvtibarewal/nlm-l24-adapters/7",
+    "nishantdahal/ntl-handwriting-blend/1",
+    "nuridudak/ntl-two-stage-encoders/1",
+    "nuridudak/ntl-q14-lora/1",
+    "dhruvtibarewal/nlm-l24-adapters-v5/1",
+    "dhruvtibarewal/nlm-enc-v5/3",
+    "nuridudak/ntl-q14-lora-v4/1",
+    "nuridudak/ntl-svc-prefit-pool-v4n/1",
+    "lucasboesen/ntl-free-proxy-generations/12",
+    "abdullah1afify/ntl-generations/11",
+    "mercurydust/ntllm-chatgpt-a-b/2",
+    "lightningv08/ntl-olmo2-native24-final-inference-assets/22"
+  ],
+  "kernel_sources": [
+    "lucasboesen/name-that-llm-glm4-9b-trunc25/1",
+    "lucasboesen/name-that-llm-extract-encoders2/1",
+    "lucasboesen/name-that-llm-electra-large-weights/1",
+    "lucasboesen/name-that-llm-desklib-weights/1",
+    "lucasboesen/name-that-llm-train-lora24-s7/1",
+    "lucasboesen/name-that-llm-train-tokattn/1",
+    "lucasboesen/name-that-llm-train-tokattn2/1",
+    "vnton37nguyn/ntl-train-lora-qwen25-instyle/2"
+  ],
+  "model_sources": [
+    "qwen-lm/qwen2.5/transformers/7b/1",
+    "qwen-lm/qwen2.5/transformers/14b/1",
+    "qwen-lm/qwen-3/transformers/4b-base/1",
+    "qwen-lm/qwen-3/transformers/8b-base/1",
+    "qwen-lm/qwen-3/transformers/14b-base/1",
+    "cputer/qwen3-8-27b-base/transformers/default/1"
+  ],
+  "additional_own_assets_required_for_full_replay": true
+}
